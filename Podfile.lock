@@ -1,0 +1,62 @@
+PODS:
+  - MapboxAccounts (2.2.0)
+  - MapboxNavigationNative (6.2.1)
+  - MapboxSpeech (0.3.0)
+  - Polyline (4.2.1)
+  - Solar (2.1.0)
+  - Turf (0.3.0)
+  - VietMaps (0.1.3):
+    - VietMapsMobileEvents (= 0.1.0)
+  - VietMapsCoreNavigation (0.1.0):
+    - MapboxAccounts (~> 2.2.0)
+    - MapboxNavigationNative (~> 6.2.1)
+    - Turf (~> 0.3.0)
+    - VietMapsDirections (~> 0.1.0)
+    - VietMapsMobileEvents (~> 0.1.0)
+  - VietMapsDirections (0.1.0):
+    - Polyline (~> 4.2)
+    - Turf (~> 0.3)
+  - VietMapsGeocoder (0.1.0)
+  - VietMapsMobileEvents (0.1.0)
+  - VietMapsNavigation (0.1.1):
+    - MapboxSpeech (~> 0.3.0)
+    - Solar (~> 2.1)
+    - VietMaps (~> 0.1.3)
+    - VietMapsCoreNavigation (= 0.1.0)
+    - VietMapsGeocoder (~> 0.1.0)
+
+DEPENDENCIES:
+  - VietMapsNavigation (~> 0.1.1)
+
+SPEC REPOS:
+  trunk:
+    - MapboxAccounts
+    - MapboxNavigationNative
+    - MapboxSpeech
+    - Polyline
+    - Solar
+    - Turf
+    - VietMaps
+    - VietMapsCoreNavigation
+    - VietMapsDirections
+    - VietMapsGeocoder
+    - VietMapsMobileEvents
+    - VietMapsNavigation
+
+SPEC CHECKSUMS:
+  MapboxAccounts: 3c04a1df56c1ac4ff714619296fb47310cf70ad0
+  MapboxNavigationNative: 11dc22140f4698d3f26989f2b6379dc81ef0d4c1
+  MapboxSpeech: 403415e932e084cf290b9d55c49ab7ea210b9595
+  Polyline: 0e9890790292741c8186201a536b6bb6a78d02dd
+  Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
+  Turf: c6bdf62d6a70c647874f295dd1cf4eefc0c3e9e6
+  VietMaps: 3f1f870caf1a3810dee1a557ec4cd7a3cdaed7cc
+  VietMapsCoreNavigation: 28aacfa553a386ad12f036133cc85cbec1aa3654
+  VietMapsDirections: df7d26e2bad8b7dd9bd4365779e9d70308da3fe5
+  VietMapsGeocoder: f8a2589b46595976cb429d62ac12cf3bf88f86d1
+  VietMapsMobileEvents: 346f002271cfbbbb3766258aa303f1a21c39f3db
+  VietMapsNavigation: a40d524a8497c5607271ced4bc83f81cd629d5f2
+
+PODFILE CHECKSUM: 71f667166906e8e2a3305d2bd707d0d9b338a491
+
+COCOAPODS: 1.9.1
