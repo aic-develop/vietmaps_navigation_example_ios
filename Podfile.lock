@@ -5,28 +5,28 @@ PODS:
   - Polyline (4.2.1)
   - Solar (2.1.0)
   - Turf (0.3.0)
-  - VietMaps (0.1.3):
+  - VietMaps (1.0.0):
     - VietMapsMobileEvents (= 0.1.0)
-  - VietMapsCoreNavigation (0.1.0):
+  - VietMapsCoreNavigation (1.0.0):
     - MapboxAccounts (~> 2.2.0)
     - MapboxNavigationNative (~> 6.2.1)
     - Turf (~> 0.3.0)
-    - VietMapsDirections (~> 0.1.0)
+    - VietMapsDirections (~> 1.0.0)
     - VietMapsMobileEvents (~> 0.1.0)
-  - VietMapsDirections (0.1.0):
+  - VietMapsDirections (1.0.0):
     - Polyline (~> 4.2)
     - Turf (~> 0.3)
-  - VietMapsGeocoder (0.1.0)
+  - VietMapsGeocoder (1.0.0)
   - VietMapsMobileEvents (0.1.0)
-  - VietMapsNavigation (0.1.1):
+  - VietMapsNavigation (1.0.1):
     - MapboxSpeech (~> 0.3.0)
     - Solar (~> 2.1)
-    - VietMaps (~> 0.1.3)
-    - VietMapsCoreNavigation (= 0.1.0)
-    - VietMapsGeocoder (~> 0.1.0)
+    - VietMaps (~> 1.0.0)
+    - VietMapsCoreNavigation (= 1.0.0)
+    - VietMapsGeocoder (~> 1.0.0)
 
 DEPENDENCIES:
-  - VietMapsNavigation (~> 0.1.1)
+  - VietMapsNavigation (~> 1.0.1)
 
 SPEC REPOS:
   trunk:
@@ -50,13 +50,13 @@ SPEC CHECKSUMS:
   Polyline: 0e9890790292741c8186201a536b6bb6a78d02dd
   Solar: 2dc6e7cc39186cb0c8228fa08df76fb50c7d8f24
   Turf: c6bdf62d6a70c647874f295dd1cf4eefc0c3e9e6
-  VietMaps: 3f1f870caf1a3810dee1a557ec4cd7a3cdaed7cc
-  VietMapsCoreNavigation: 28aacfa553a386ad12f036133cc85cbec1aa3654
-  VietMapsDirections: df7d26e2bad8b7dd9bd4365779e9d70308da3fe5
-  VietMapsGeocoder: f8a2589b46595976cb429d62ac12cf3bf88f86d1
+  VietMaps: 54b607cc4836f1d34ce4270e16166d1e710db1cc
+  VietMapsCoreNavigation: f5a675d287d3d77cc62eae581602c45a6595b453
+  VietMapsDirections: a6f4bfd0ad6f12d8be0d5eeb61728301e67f6c80
+  VietMapsGeocoder: ed11f04f6336d7976eeb6b5acaedb6e94e3c690e
   VietMapsMobileEvents: 346f002271cfbbbb3766258aa303f1a21c39f3db
-  VietMapsNavigation: a40d524a8497c5607271ced4bc83f81cd629d5f2
+  VietMapsNavigation: 94aad26a26480066a9b76fb622672e9c3e9b47d8
 
-PODFILE CHECKSUM: 71f667166906e8e2a3305d2bd707d0d9b338a491
+PODFILE CHECKSUM: 69dfb3353450a5fe79533c1b4f87bd949eb9236a
 
 COCOAPODS: 1.9.1
