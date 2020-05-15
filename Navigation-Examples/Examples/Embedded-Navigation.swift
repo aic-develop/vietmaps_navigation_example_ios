@@ -11,8 +11,8 @@ class EmbeddedExampleViewController: UIViewController {
     var route: Route?
 
     lazy var options: NavigationRouteOptions = {
-        let origin = CLLocationCoordinate2DMake(38.913175, -77.032405)
-        let destination = CLLocationCoordinate2DMake(38.8977, -77.0365)
+        let origin = CLLocationCoordinate2DMake(21.0298124, 105.8121157)
+        let destination = CLLocationCoordinate2DMake(20.9596724, 105.8551936)
         return NavigationRouteOptions(coordinates: [origin, destination], profileIdentifier: .automobile)
     }()
     

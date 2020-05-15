@@ -125,4 +125,7 @@ class AdvancedViewController: UIViewController, MGLMapViewDelegate, CLLocationMa
     func navigationMapView(_ mapView: NavigationMapView, didSelect route: Route) {
         self.currentRoute = route
     }
+    func navigationViewControllerDidDismiss(_ navigationViewController: NavigationViewController, byCanceling canceled: Bool) {
+        navigationController?.dismiss(animated: true, completion: nil)
+    }
 }

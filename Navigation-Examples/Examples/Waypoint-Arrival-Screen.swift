@@ -9,8 +9,8 @@ class WaypointArrivalScreenViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let waypointOne = Waypoint(coordinate: CLLocationCoordinate2DMake(38.913175, -77.032405))
-        let waypointTwo = Waypoint(coordinate: CLLocationCoordinate2DMake(38.8977, -77.0365))
+        let waypointOne = Waypoint(coordinate: CLLocationCoordinate2DMake(21.0298124, 105.8121157))
+        let waypointTwo = Waypoint(coordinate: CLLocationCoordinate2DMake(20.9596724, 105.8551936))
         
         let options = NavigationRouteOptions(waypoints: [waypointOne, waypointTwo], profileIdentifier: .automobile)
         
@@ -47,5 +47,8 @@ extension WaypointArrivalScreenViewController: NavigationViewControllerDelegate 
         navigationViewController.present(alert, animated: true, completion: nil)
         
         return false
+    }
+    func navigationViewControllerDidDismiss(_ navigationViewController: NavigationViewController, byCanceling canceled: Bool) {
+        navigationController?.dismiss(animated: true, completion: nil)
     }
 }
